@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipality Services Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>LocalLink: Municipality Hub</h1>
+            <p>Find everything you need in our community</p>
+            <div class="search-container">
+                <input type="text" id="mainSearch" placeholder="Search for hospitals, banks, or shops...">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="category-grid">
+            <!-- 1. Hospitals -->
+            <div class="category-card" data-name="hospitals">
+                <i class="fa-solid fa-hospital"></i>
+                <h3>Hospitals</h3>
+                <p>Medical centers & Clinics</p>
+            </div>
+
+            <!-- 2. Education -->
+            <div class="category-card" data-name="education">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Education</h3>
+                <p>Schools & Institutes</p>
+            </div>
+
+            <!-- 3. Manpower -->
+            <div class="category-card" data-name="manpower">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>Manpower</h3>
+                <p>Consultants & Agencies</p>
+            </div>
+
+            <!-- 4. Government -->
+            <div class="category-card" data-name="government">
+                <i class="fa-solid fa-building-columns"></i>
+                <h3>Govt Offices</h3>
+                <p>Municipal & Public services</p>
+            </div>
+
+            <!-- 5. Hotels -->
+            <div class="category-card" data-name="hotels">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Hotels</h3>
+                <p>Lodging & Stay</p>
+            </div>
+
+            <!-- 6. Shops -->
+            <div class="category-card" data-name="shops">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Shops</h3>
+                <p>Grocery, Clothes, Sports</p>
+            </div>
+
+            <!-- 7. Banks -->
+            <div class="category-card" data-name="banks">
+                <i class="fa-solid fa-money-bill-transfer"></i>
+                <h3>Banks & ATMs</h3>
+                <p>Financial Services</p>
+            </div>
+
+            <!-- 8. Tourism -->
+            <div class="category-card" data-name="visit">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h3>Places to Visit</h3>
+                <p>Parks & Landmarks</p>
+            </div>
+
+            <!-- 9. Services -->
+            <div class="category-card" data-name="services">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Services</h3>
+                <p>Plumbing, Electricians, etc.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
